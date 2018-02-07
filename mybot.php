@@ -21,11 +21,11 @@ if (!is_null($events['events'])) {
 					'text' => 'สวัสดีครัชช'
 				];
 			}
-			else if($text == 'test'){
+			else if($text == 'cpu'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'ทดสอบๆ'
+					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่...'
 				];
 			}
 		
